@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<!-- SafeFoodPack Design Project (ANR-10-ALIA-009)
+Authors: Mai Nguyen, Cedric Lyathaud, Olivier Vitrac
+Contact: olivier.vitrac@agroparistech.fr
+28-Nov-2014 21:05:14
+LP_MOL11 -->
+<root xml_tb_version="2.01" idx="1" type="struct" size="1 1">
+  <version idx="1" type="double" size="1 1">0.1</version>
+  <creationdate idx="1" type="char" size="1 20">28-Nov-2014 21:05:14</creationdate>
+  <machine idx="1" type="char" size="1 8">LP_MOL11</machine>
+  <user idx="1" type="char" size="1 7">Olivier</user>
+  <apppath idx="1" type="char" size="1 57">C:\Data\Olivier\INRA\Codes\rmnspec\opensource\SFPDnmrspec</apppath>
+  <privatepath idx="1" type="char" size="1 65">C:\Data\Olivier\INRA\Codes\rmnspec\opensource\SFPDnmrspec\private</privatepath>
+  <extension idx="1" type="char" size="1 12">.SFPDnmr.xml</extension>
+  <prefetchext idx="1" type="char" size="1 13">.prefetch.mat</prefetchext>
+  <loadingfile idx="1" type="char" size="1 82">C:\Data\Olivier\INRA\Codes\rmnspec\opensource\SFPDnmrspec\database\nmropenbase.xml</loadingfile>
+  <massfile idx="1" type="char" size="1 89">C:\Data\Olivier\INRA\Codes\rmnspec\opensource\SFPDnmrspec\database\nmropendbcorrtable.mat</massfile>
+  <nmrdbfile idx="1" type="char" size="1 76">C:\Data\Olivier\INRA\Codes\rmnspec\opensource\SFPDnmrspec\database\nmrdb.mat</nmrdbfile>
+  <appconfig idx="1" type="char" size="1 89">C:\Data\Olivier\INRA\Codes\rmnspec\opensource\SFPDnmrspec\private\application.SFPDnmr.xml</appconfig>
+  <methodfile idx="1" type="char" size="1 97">C:\Data\Olivier\INRA\Codes\rmnspec\opensource\SFPDnmrspec\method\deconvolution_method.SFPDnmr.xml</methodfile>
+  <outputpath idx="1" type="char" size="1 64">C:\Data\Olivier\INRA\Codes\rmnspec\opensource\SFPDnmrspec\output</outputpath>
+  <mixturespectrum idx="1" type="char" size="0 0"/> 
+  <projectname idx="1" type="char" size="0 0"/> 
+  <nmolchoose idx="1" type="double" size="1 3">10 1 52</nmolchoose>
+  <rhothreshold idx="1" type="double" size="1 3">0.75 0.1 1</rhothreshold>
+  <identificationext idx="1" type="char" size="1 19">.identification.mat</identificationext>
+  <deconvolutionext idx="1" type="char" size="1 18">.deconvolution.mat</deconvolutionext>
+  <windowposition idx="1" type="double" size="1 4">131.8 30.5385 165.8 37</windowposition>
+  <private idx="1" type="struct" size="1 1">
+    <xmlheader idx="1" type="cell" size="3 1">
+      <item idx="1" type="char" size="1 45">SafeFoodPack Design Project (ANR-10-ALIA-009)</item>
+      <item idx="2" type="char" size="1 52">Authors: Mai Nguyen, Cedric Lyathaud, Olivier Vitrac</item>
+      <item idx="3" type="char" size="1 40">Contact: olivier.vitrac@agroparistech.fr</item>
+    </xmlheader>
+    <version idx="1" type="double" size="1 1">0.1</version>
+  </private>
+  <nfo idx="1" type="struct" size="1 1">
+    <date idx="1" type="char" size="1 20">28-Nov-2014 21:05:14</date>
+    <version idx="1" type="double" size="1 1">0.1</version>
+    <host idx="1" type="char" size="1 8">LP_MOL11</host>
+    <user idx="1" type="char" size="1 7">Olivier</user>
+  </nfo>
+  <method idx="1" type="struct" size="1 1">
+    <nclasstheorical idx="1" type="struct" size="1 1">
+      <value idx="1" type="double" size="1 1">18</value>
+      <name idx="1" type="char" size="1 29">Number of theoretical classes</name>
+      <bounds idx="1" type="double" size="1 2">1 52</bounds>
+      <flag idx="1" type="boolean" size="1 1">1</flag>
+    </nclasstheorical>
+    <rhothresholdclass idx="1" type="struct" size="1 1">
+      <value idx="1" type="double" size="1 1">0.75</value>
+      <name idx="1" type="char" size="1 68">threshold on correlation coefficient for ranking substances by class</name>
+      <flag idx="1" type="boolean" size="1 1">1</flag>
+      <bounds idx="1" type="double" size="1 2">0 1</bounds>
+    </rhothresholdclass>
+    <nmoltree idx="1" type="struct" size="1 1">
+      <value idx="1" type="double" size="1 1">5</value>
+      <name idx="1" type="char" size="1 51">number of substances to be plotted in scenario tree</name>
+      <bounds idx="1" type="double" size="1 2">1 52</bounds>
+    </nmoltree>
+    <nplotfit idx="1" type="struct" size="1 1">
+      <value idx="1" type="double" size="1 1">4</value>
+      <name idx="1" type="char" size="1 44">number of spline approximation to be plotted</name>
+      <bounds idx="1" type="double" size="1 2">1 52</bounds>
+    </nplotfit>
+    <concmax idx="1" type="struct" size="1 1">
+      <value idx="1" type="double" size="1 1">10000</value>
+      <name idx="1" type="char" size="1 46">Maximal value of concentration for color scale</name>
+      <bounds idx="1" type="double" size="1 2">1 1000000</bounds>
+    </concmax>
+    <colormapgraph idx="1" type="struct" size="1 1">
+      <value idx="1" type="char" size="1 11">cmaplog(50)</value>
+      <name idx="1" type="char" size="1 14">colormap graph</name>
+    </colormapgraph>
+    <Identification idx="1" type="struct" size="1 1">
+      <value idx="1" type="struct" size="1 1">
+        <worse idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">10</value>
+          <name idx="1" type="char" size="1 45">&quot;*&quot; factor applied on correlation coefficient</name>
+          <bounds idx="1" type="double" size="1 2">1 50</bounds>
+          <flag idx="1" type="boolean" size="1 1">1</flag>
+        </worse>
+        <threshold idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.6</value>
+          <name idx="1" type="char" size="1 62">threshold on correlation coefficient for appliyng worse factor</name>
+          <bounds idx="1" type="double" size="1 2">0.1 1</bounds>
+          <flag idx="1" type="boolean" size="1 1">1</flag>
+        </threshold>
+        <idsubstance idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="1 10">commonname</value>
+          <name idx="1" type="char" size="1 26">type of name of substances</name>
+          <flag idx="1" type="boolean" size="1 1">1</flag>
+        </idsubstance>
+      </value>
+    </Identification>
+    <Report1 idx="1" type="struct" size="1 1">
+      <value idx="1" type="struct" size="1 1">
+        <figname idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="1 6">report</value>
+          <name idx="1" type="char" size="1 11">figure name</name>
+        </figname>
+        <paperposition idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 4">0.192 -0.3226 20.6 30</value>
+          <name idx="1" type="char" size="1 14">paper position</name>
+        </paperposition>
+        <paperorientation idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="1 8">portrait</value>
+          <name idx="1" type="char" size="1 17">paper orientation</name>
+        </paperorientation>
+        <marginlayout idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 3">0.15 0.1 0.21</value>
+          <name idx="1" type="char" size="1 16">margin of layout</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </marginlayout>
+        <spacerheader idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.01</value>
+          <name idx="1" type="char" size="1 27">header spacer for plot area</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </spacerheader>
+        <spacerfooter idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.05</value>
+          <name idx="1" type="char" size="1 27">footer spacer for plot area</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </spacerfooter>
+        <margincolorbar idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.1</value>
+          <name idx="1" type="char" size="1 18">margin of colorbar</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </margincolorbar>
+        <margingraph idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.1</value>
+          <name idx="1" type="char" size="1 29">margin of scenario tree graph</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </margingraph>
+        <headertext idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="0 0"/> 
+          <name idx="1" type="char" size="1 11">header text</name>
+        </headertext>
+        <footertext idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="0 0"/> 
+          <name idx="1" type="char" size="1 11">footer text</name>
+        </footertext>
+        <fontsizeheadertext idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">12</value>
+          <name idx="1" type="char" size="1 23">fontsize of header text</name>
+          <bounds idx="1" type="double" size="1 2">1 100</bounds>
+        </fontsizeheadertext>
+        <fontsizefootertext idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">8</value>
+          <name idx="1" type="char" size="1 23">fontsize of footer text</name>
+          <bounds idx="1" type="double" size="1 2">0 100</bounds>
+        </fontsizefootertext>
+        <resolution idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="1 3">300</value>
+          <name idx="1" type="char" size="1 16">print resolution</name>
+          <bounds idx="1" type="double" size="1 2">0 1000</bounds>
+        </resolution>
+      </value>
+    </Report1>
+    <Report2 idx="1" type="struct" size="1 1">
+      <value idx="1" type="struct" size="1 1">
+        <figname idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="1 6">report</value>
+          <name idx="1" type="char" size="1 11">figure name</name>
+        </figname>
+        <paperposition idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 4">3.0301 1.238 23.6173 18.508</value>
+          <name idx="1" type="char" size="1 14">paper position</name>
+        </paperposition>
+        <paperorientation idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="1 9">landscape</value>
+          <name idx="1" type="char" size="1 17">paper orientation</name>
+        </paperorientation>
+        <marginlayout idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 3">0.15 0.1 0.21</value>
+          <name idx="1" type="char" size="1 16">margin of layout</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </marginlayout>
+        <spacerheader idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.01</value>
+          <name idx="1" type="char" size="1 27">header spacer for plot area</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </spacerheader>
+        <spacerfooter idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.06</value>
+          <name idx="1" type="char" size="1 27">footer spacer for plot area</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </spacerfooter>
+        <margincolorbar idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.1</value>
+          <name idx="1" type="char" size="1 18">margin of colorbar</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </margincolorbar>
+        <margingraph idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.1</value>
+          <name idx="1" type="char" size="1 29">margin of scenario tree graph</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </margingraph>
+        <headertext idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="0 0"/> 
+          <name idx="1" type="char" size="1 11">header text</name>
+        </headertext>
+        <footertext idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="0 0"/> 
+          <name idx="1" type="char" size="1 11">footer text</name>
+        </footertext>
+        <fontsizeheadertext idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">12</value>
+          <name idx="1" type="char" size="1 23">fontsize of header text</name>
+          <bounds idx="1" type="double" size="1 2">1 100</bounds>
+        </fontsizeheadertext>
+        <fontsizefootertext idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">8</value>
+          <name idx="1" type="char" size="1 23">fontsize of footer text</name>
+          <bounds idx="1" type="double" size="1 2">0 100</bounds>
+        </fontsizefootertext>
+        <resolution idx="1" type="struct" size="1 1">
+          <value idx="1" type="char" size="1 3">300</value>
+          <name idx="1" type="char" size="1 16">print resolution</name>
+          <bounds idx="1" type="double" size="1 2">0 1000</bounds>
+        </resolution>
+        <spacerheater idx="1" type="struct" size="1 1">
+          <value idx="1" type="double" size="1 1">0.06</value>
+          <name idx="1" type="char" size="1 27">heater spacer for plot area</name>
+          <bounds idx="1" type="double" size="1 2">0 1</bounds>
+        </spacerheater>
+      </value>
+    </Report2>
+  </method>
+</root>

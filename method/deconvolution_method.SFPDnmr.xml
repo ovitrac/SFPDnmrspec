@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!-- SafeFoodPack Design Project (ANR-10-ALIA-009)
+Authors: Mai Nguyen, Cedric Lyathaud, Olivier Vitrac
+Contact: olivier.vitrac@agroparistech.fr
+28-Nov-2014 21:05:14
+LP_MOL11 -->
+<root xml_tb_version="2.01" idx="1" type="struct" size="1 1">
+  <nclasstheorical idx="1" type="double" size="1 1">18</nclasstheorical>
+  <rhothresholdclass idx="1" type="double" size="1 1">0.75</rhothresholdclass>
+  <nmoltree idx="1" type="double" size="1 1">5</nmoltree>
+  <nplotfit idx="1" type="double" size="1 1">4</nplotfit>
+  <concmax idx="1" type="double" size="1 1">10000</concmax>
+  <colormapgraph idx="1" type="char" size="1 11">cmaplog(50)</colormapgraph>
+  <Identification idx="1" type="struct" size="1 1">
+    <worse idx="1" type="double" size="1 1">10</worse>
+    <threshold idx="1" type="double" size="1 1">0.6</threshold>
+    <idsubstance idx="1" type="char" size="1 10">commonname</idsubstance>
+  </Identification>
+  <Report1 idx="1" type="struct" size="1 1">
+    <figname idx="1" type="char" size="1 6">report</figname>
+    <paperposition idx="1" type="double" size="1 4">0.192 -0.3226 20.6 30</paperposition>
+    <paperorientation idx="1" type="char" size="1 8">portrait</paperorientation>
+    <marginlayout idx="1" type="double" size="1 3">0.15 0.1 0.21</marginlayout>
+    <spacerheader idx="1" type="double" size="1 1">0.01</spacerheader>
+    <spacerfooter idx="1" type="double" size="1 1">0.05</spacerfooter>
+    <margincolorbar idx="1" type="double" size="1 1">0.1</margincolorbar>
+    <margingraph idx="1" type="double" size="1 1">0.1</margingraph>
+    <headertext idx="1" type="char" size="0 0"/> 
+    <footertext idx="1" type="char" size="0 0"/> 
+    <fontsizeheadertext idx="1" type="double" size="1 1">12</fontsizeheadertext>
+    <fontsizefootertext idx="1" type="double" size="1 1">8</fontsizefootertext>
+    <resolution idx="1" type="char" size="1 3">300</resolution>
+  </Report1>
+  <Report2 idx="1" type="struct" size="1 1">
+    <figname idx="1" type="char" size="1 6">report</figname>
+    <paperposition idx="1" type="double" size="1 4">3.0301 1.238 23.6173 18.508</paperposition>
+    <paperorientation idx="1" type="char" size="1 9">landscape</paperorientation>
+    <marginlayout idx="1" type="double" size="1 3">0.15 0.1 0.21</marginlayout>
+    <spacerheader idx="1" type="double" size="1 1">0.01</spacerheader>
+    <spacerfooter idx="1" type="double" size="1 1">0.06</spacerfooter>
+    <margincolorbar idx="1" type="double" size="1 1">0.1</margincolorbar>
+    <margingraph idx="1" type="double" size="1 1">0.1</margingraph>
+    <headertext idx="1" type="char" size="0 0"/> 
+    <footertext idx="1" type="char" size="0 0"/> 
+    <fontsizeheadertext idx="1" type="double" size="1 1">12</fontsizeheadertext>
+    <fontsizefootertext idx="1" type="double" size="1 1">8</fontsizefootertext>
+    <resolution idx="1" type="char" size="1 3">300</resolution>
+    <spacerheater idx="1" type="double" size="1 1">0.06</spacerheater>
+  </Report2>
+  <nfo idx="1" type="struct" size="1 1">
+    <date idx="1" type="char" size="1 20">28-Nov-2014 21:05:14</date>
+    <version idx="1" type="double" size="1 1">0.1</version>
+    <host idx="1" type="char" size="1 8">LP_MOL11</host>
+    <user idx="1" type="char" size="1 7">Olivier</user>
+  </nfo>
+</root>
